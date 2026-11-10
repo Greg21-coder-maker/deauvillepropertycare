@@ -1,0 +1,37 @@
+# robots.txt — Deauville Property Care
+# Autorise les moteurs de recherche classiques ET les assistants IA à lire le site.
+
+# --- Recherche web classique ---
+User-agent: *
+Allow: /
+
+# --- Assistants IA : recherche & réponse en direct (citation) ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# --- Robots d'entraînement (facultatif : laissez si vous acceptez d'alimenter les modèles) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://deauvillepropertycare.com/sitemap.xml
