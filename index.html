@@ -561,5 +561,16 @@
     })();
   </script>
 
+  <!-- Statistiques de visites (GoatCounter, sans cookies) — uniquement sur le vrai domaine -->
+  <script>
+    if (/(^|\.)deauvillepropertycare\.com$/.test(location.hostname)) {
+      var gc = document.createElement('script');
+      gc.async = true;
+      gc.src = 'https://gc.zgo.at/count.js';
+      gc.setAttribute('data-goatcounter', 'https://deauvillepropertycare.goatcounter.com/count');
+      document.body.appendChild(gc);
+    }
+  </script>
+
 </body>
 </html>
